@@ -20,7 +20,7 @@ public class login {
 
 	// WebElement for the email text box
 	// Name used as no id is pressent
-	@FindBy(name = "usename")
+	@FindBy(name = "username")
 	public WebElement weEmail;
 
 	// WebElement for the Password text box
