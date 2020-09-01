@@ -7,10 +7,10 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = {"src/test/java/features"},
+		features = {"src/test/java/features/"},
 				glue = {"steps"}
 		)
 
-public class loginGlue {
+public class loginTestRunner {
 
 }

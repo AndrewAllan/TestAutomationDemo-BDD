@@ -5,6 +5,7 @@ import static org.junit.Assert.assertEquals;
 import org.openqa.selenium.WebDriver;
 
 import Browsers.Chrome;
+import cucumber.api.java.After;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -60,5 +61,10 @@ public class LoginSteps {
 		login = new login(driver);
 		assertEquals("Please fill in this field.",login.wePassword.getAttribute("validationMessage"));
 	}
-	
+	@After
+	public void afterTest() {
+		System.out.println("after test from the login steps class");
+		driver.close();
+		
+	}
 }
