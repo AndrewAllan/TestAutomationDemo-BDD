@@ -23,37 +23,31 @@ public class SignUpSteps {
 
 	@Given("^I enter my lastname$")
 	public void i_enter_my_lastname() throws Throwable {
-	//	signup = new SignUp(driver);
 		signup.weLastname.sendKeys("bobby");
 	}
 
 	@Given("^I enter my mobile number$")
 	public void i_enter_my_mobile_number() throws Throwable {
-	//	signup = new SignUp(driver);
 		signup.wePhone.sendKeys("07712566521");	
 	}
 
 	@Given("^I enter my email address$")
 	public void i_enter_my_email_address() throws Throwable {
-	//	signup = new SignUp(driver);
 		signup.weEmail.sendKeys("asd@asd.com");	
 	}
 
 	@Given("^I enter my confirm password$")
 	public void i_enter_my_confirm_password() throws Throwable {
-		//signup = new SignUp(driver);
 		signup.weConfirmPassword.sendKeys("abc123");
 	}
 	
 	@Given("^I enter my new password$")
 	public void i_enter_my_mew_password() throws Throwable {
-		//signup = new SignUp(driver);
 		signup.wePassword.sendKeys("abc123");
 	}
 
 	@When("^I press submit$")
 	public void i_press_submit() throws Throwable {
-		//signup = new SignUp(driver);
 		signup.weSignUp.click();
 		Thread.sleep(2000);
 	}
@@ -61,12 +55,11 @@ public class SignUpSteps {
 	@Then("^I am displayed a forename validation message$")
 	public void i_am_displayed_a_forename_validation_message() throws Throwable {
 		assertEquals("Please fill in this field.",signup.weFirstname.getAttribute("validationMessage"));
-
 	}
 
 	@Given("^I enter my forename address$")
 	public void i_enter_my_forename_address() throws Throwable {
-	//	assertEquals("Please fill in this field.",signup.weFirstname.getAttribute("validationMessage"));
+	assertEquals("Please fill in this field.",signup.weFirstname.getAttribute("validationMessage"));
 	}
 
 	@Then("^I am displayed a email validation message$")

@@ -53,7 +53,7 @@ rules
     And I enter my lastname
     And I enter my forename
     And I enter my email address
-    And I enter my forename
+    And I enter my mobile number
     And I enter my confirm password
     When I press submit
     Then I am displayed a password validation message
@@ -65,7 +65,7 @@ rules
     And I enter my forename
     And I enter my email address
     And I enter my new password
-    And I enter my forename
+    And I enter my mobile number
     When I press submit
     Then I am displayed a confirm passowrd validation message
     
@@ -76,7 +76,7 @@ rules
     And I enter my forename
     And I enter my email address
     And I enter my new password
-    And I enter my forename
+    And I enter my mobile number
     And I enter my confirm password
     When I press submit
     Then I am redirected to the account screen
