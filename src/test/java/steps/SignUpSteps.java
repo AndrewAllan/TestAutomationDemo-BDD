@@ -42,18 +42,24 @@ public class SignUpSteps {
 	@Given("^I enter my confirm password$")
 	public void i_enter_my_confirm_password() throws Throwable {
 		//signup = new SignUp(driver);
-		signup.weConfirmPassword.sendKeys("asd@asd.com");
+		signup.weConfirmPassword.sendKeys("abc123");
+	}
+	
+	@Given("^I enter my new password$")
+	public void i_enter_my_mew_password() throws Throwable {
+		//signup = new SignUp(driver);
+		signup.wePassword.sendKeys("abc123");
 	}
 
 	@When("^I press submit$")
 	public void i_press_submit() throws Throwable {
 		//signup = new SignUp(driver);
-		signup.weConfirmPassword.click();
+		signup.weSignUp.click();
+		Thread.sleep(2000);
 	}
 
 	@Then("^I am displayed a forename validation message$")
 	public void i_am_displayed_a_forename_validation_message() throws Throwable {
-		//login = new login(driver);
 		assertEquals("Please fill in this field.",signup.weFirstname.getAttribute("validationMessage"));
 
 	}

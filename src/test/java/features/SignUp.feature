@@ -9,7 +9,7 @@ rules
     And I enter my lastname
     And I enter my mobile number
     And I enter my email address
-    And I enter my password
+    And I enter my new password
     And I enter my confirm password
     When I press submit
     Then I am displayed a forename validation message
@@ -19,8 +19,8 @@ rules
     Given I am on the sign in page
     And I enter my lastname
     And I enter my mobile number
-    And I enter my forename address
-    And I enter my password
+    And I enter my forename
+    And I enter my new password
     And I enter my confirm password
     When I press submit
     Then I am displayed a email validation message
@@ -31,7 +31,7 @@ rules
     And I enter my forename
     And I enter my mobile number
     And I enter my email address
-    And I enter my password
+    And I enter my new password
     And I enter my confirm password
     When I press submit
     Then I am displayed a lastname validation message
@@ -42,7 +42,7 @@ rules
     And I enter my lastname
     And I enter my forename
     And I enter my email address
-    And I enter my password
+    And I enter my new password
     And I enter my confirm password
     When I press submit
     Then I am displayed a mobile number validation message
@@ -64,7 +64,7 @@ rules
     And I enter my lastname
     And I enter my forename
     And I enter my email address
-    And I enter my password
+    And I enter my new password
     And I enter my forename
     When I press submit
     Then I am displayed a confirm passowrd validation message
@@ -75,7 +75,7 @@ rules
     And I enter my lastname
     And I enter my forename
     And I enter my email address
-    And I enter my password
+    And I enter my new password
     And I enter my forename
     And I enter my confirm password
     When I press submit
