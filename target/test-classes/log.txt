@@ -1,0 +1,57 @@
+[ INFO ] - starting webdriver and oppening webpage
+[ INFO ] - entering name into the last name text box
+[ INFO ] - entering phone number into the phone number text box
+[ INFO ] - enter email into the email address box
+[ INFO ] - entering password into the password box
+[ INFO ] - entering password into the password confirmation box
+[ INFO ] - pressing the submit button
+[ INFO ] - asserting the forename validation is pressent
+[ INFO ] - starting webdriver and oppening webpage
+[ INFO ] - entering name into the last name text box
+[ INFO ] - entering phone number into the phone number text box
+[ INFO ] - asserting the forename validation is pressent
+[ INFO ] - entering password into the password box
+[ INFO ] - entering password into the password confirmation box
+[ INFO ] - pressing the submit button
+[ INFO ] - asserting the email validation is pressent
+[ INFO ] - starting webdriver and oppening webpage
+[ INFO ] - asserting the forename validation is pressent
+[ INFO ] - entering phone number into the phone number text box
+[ INFO ] - enter email into the email address box
+[ INFO ] - entering password into the password box
+[ INFO ] - entering password into the password confirmation box
+[ INFO ] - pressing the submit button
+[ INFO ] - asserting the lastname validation is pressent
+[ INFO ] - starting webdriver and oppening webpage
+[ INFO ] - entering name into the last name text box
+[ INFO ] - asserting the forename validation is pressent
+[ INFO ] - enter email into the email address box
+[ INFO ] - entering password into the password box
+[ INFO ] - entering password into the password confirmation box
+[ INFO ] - pressing the submit button
+[ INFO ] - asserting the mobile number validation is pressent
+[ INFO ] - starting webdriver and oppening webpage
+[ INFO ] - entering name into the last name text box
+[ INFO ] - asserting the forename validation is pressent
+[ INFO ] - enter email into the email address box
+[ INFO ] - entering phone number into the phone number text box
+[ INFO ] - entering password into the password confirmation box
+[ INFO ] - pressing the submit button
+[ INFO ] - asserting the password validation is pressent
+[ INFO ] - starting webdriver and oppening webpage
+[ INFO ] - entering name into the last name text box
+[ INFO ] - asserting the forename validation is pressent
+[ INFO ] - enter email into the email address box
+[ INFO ] - entering password into the password box
+[ INFO ] - entering phone number into the phone number text box
+[ INFO ] - pressing the submit button
+[ INFO ] - asserting the confirm password validation is pressent
+[ INFO ] - starting webdriver and oppening webpage
+[ INFO ] - entering name into the last name text box
+[ INFO ] - asserting the forename validation is pressent
+[ INFO ] - enter email into the email address box
+[ INFO ] - entering password into the password box
+[ INFO ] - entering phone number into the phone number text box
+[ INFO ] - entering password into the password confirmation box
+[ INFO ] - pressing the submit button
+[ INFO ] - asserting the user has been redirected to the correct url

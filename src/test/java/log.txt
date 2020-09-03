@@ -1,0 +1,5 @@
+[ INFO ] - starting webdriver
+[ INFO ] - Entering email address
+[ INFO ] - Entering password
+[ INFO ] - pressing the submit button
+[ INFO ] - asserting the user is on the account page
