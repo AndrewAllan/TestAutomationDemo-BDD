@@ -20,7 +20,7 @@
 Feature: login
   
 
-  @tag1
+  @Regression
   Scenario: login happy path
     Given I am on the login screen
     And I enter my username 

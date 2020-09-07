@@ -3,7 +3,7 @@ Feature: sign up
 to check that a valid user can sign up to phptravel will also check some of the validation
 rules
 
-  @tag1
+  @Regression
   Scenario: forename validation check
     Given I am on the sign in page
     And I enter my lastname

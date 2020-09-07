@@ -9,5 +9,6 @@ public class Chrome {
 		System.setProperty("webdriver.chrome.driver", "src/test/java/WebDrivers/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get(urlIn);
+		driver.manage().window().fullscreen();
 		return driver;}
 }

@@ -1,3 +1,25 @@
+[ INFO ] - oppening webdriver and oppening phptravel home
+[ INFO ] - clicking the home menu option
+[ INFO ] - entering the destination
+[ INFO ] - entering checkin date
+[ INFO ] - entering checkout date
+[ INFO ] - adding adult to booking
+[ INFO ] - clicking the search button
+[ INFO ] - still to be added step for asserting hotel listings
+[ INFO ] - oppening webdriver and oppening phptravel home
+[ INFO ] - clicking the home menu option
+[ INFO ] - entering the destination
+[ INFO ] - entering checkin date
+[ INFO ] - entering checkout date
+[ INFO ] - adding adult to booking
+[ INFO ] - adding child to booking
+[ INFO ] - clicking the search button
+[ INFO ] - still to be added step for asserting hotel listings
+[ INFO ] - starting webdriver
+[ INFO ] - Entering email address
+[ INFO ] - Entering password
+[ INFO ] - pressing the submit button
+[ INFO ] - asserting the user is on the account page
 [ INFO ] - starting webdriver and oppening webpage
 [ INFO ] - entering name into the last name text box
 [ INFO ] - entering phone number into the phone number text box
@@ -6,52 +28,3 @@
 [ INFO ] - entering password into the password confirmation box
 [ INFO ] - pressing the submit button
 [ INFO ] - asserting the forename validation is pressent
-[ INFO ] - starting webdriver and oppening webpage
-[ INFO ] - entering name into the last name text box
-[ INFO ] - entering phone number into the phone number text box
-[ INFO ] - asserting the forename validation is pressent
-[ INFO ] - entering password into the password box
-[ INFO ] - entering password into the password confirmation box
-[ INFO ] - pressing the submit button
-[ INFO ] - asserting the email validation is pressent
-[ INFO ] - starting webdriver and oppening webpage
-[ INFO ] - asserting the forename validation is pressent
-[ INFO ] - entering phone number into the phone number text box
-[ INFO ] - enter email into the email address box
-[ INFO ] - entering password into the password box
-[ INFO ] - entering password into the password confirmation box
-[ INFO ] - pressing the submit button
-[ INFO ] - asserting the lastname validation is pressent
-[ INFO ] - starting webdriver and oppening webpage
-[ INFO ] - entering name into the last name text box
-[ INFO ] - asserting the forename validation is pressent
-[ INFO ] - enter email into the email address box
-[ INFO ] - entering password into the password box
-[ INFO ] - entering password into the password confirmation box
-[ INFO ] - pressing the submit button
-[ INFO ] - asserting the mobile number validation is pressent
-[ INFO ] - starting webdriver and oppening webpage
-[ INFO ] - entering name into the last name text box
-[ INFO ] - asserting the forename validation is pressent
-[ INFO ] - enter email into the email address box
-[ INFO ] - entering phone number into the phone number text box
-[ INFO ] - entering password into the password confirmation box
-[ INFO ] - pressing the submit button
-[ INFO ] - asserting the password validation is pressent
-[ INFO ] - starting webdriver and oppening webpage
-[ INFO ] - entering name into the last name text box
-[ INFO ] - asserting the forename validation is pressent
-[ INFO ] - enter email into the email address box
-[ INFO ] - entering password into the password box
-[ INFO ] - entering phone number into the phone number text box
-[ INFO ] - pressing the submit button
-[ INFO ] - asserting the confirm password validation is pressent
-[ INFO ] - starting webdriver and oppening webpage
-[ INFO ] - entering name into the last name text box
-[ INFO ] - asserting the forename validation is pressent
-[ INFO ] - enter email into the email address box
-[ INFO ] - entering password into the password box
-[ INFO ] - entering phone number into the phone number text box
-[ INFO ] - entering password into the password confirmation box
-[ INFO ] - pressing the submit button
-[ INFO ] - asserting the user has been redirected to the correct url
