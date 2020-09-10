@@ -58,7 +58,7 @@ public class HotelSearchSteps extends base {
 	public void i_am_show_the_listing_for_the_hotel() throws Throwable {
 		// Write code here that turns the phrase above into concrete actions
 		// still to be added
-		log.info("still to be added step for asserting hotel listings");
+		log.info("asserting that the correct hotel is displayed");
 		assertEquals(driver.findElement(By.id("detail-content-sticky-nav-00")).getText(),"Oasis Beach Tower");
 				
 	}
@@ -76,6 +76,7 @@ public class HotelSearchSteps extends base {
 	public void i_am_shown_hotel_listings_for_the_city() throws Throwable {
 		//quick check will move code once verified
 		// still to be done
+		log.info("asserting that listings are shown for the correct city");
 		assertEquals(driver.findElement(By.xpath("//h3[@class='heading-title']//span[@class='text-primary']")).getText(),"London");
 	}
 
